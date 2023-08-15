@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projectart/Home.dart';
 import 'package:projectart/Second.dart';
+import 'package:projectart/Tip%20Calculator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: const Home(),
+      home: const TipCalculator(),
     );
   }
 }
